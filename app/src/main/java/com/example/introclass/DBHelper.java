@@ -23,6 +23,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String TABLE_ROBOT = "robtab";//robtab = robot +table
     private static final String COLUMN_ID = "id";
     private static final String COLUMN_NAME = "roboName";
+
     public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
